@@ -16,7 +16,7 @@ function Home() {
 					<NearbyCards />
 				</section>
 
-				<section className="pt-8">
+				<section className="py-8">
 					<h2 className="text-4xl font-semibold pb-4">Live anywhere</h2>
 					<AnywhereCards />
 				</section>

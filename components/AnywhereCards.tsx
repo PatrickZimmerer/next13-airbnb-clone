@@ -16,7 +16,7 @@ function AnywhereCards() {
 	const anywhereData = fetchAnywhereData();
 	return (
 		<>
-			<div className="flex max-w-full overflow-x-auto space-x-4">
+			<div className="flex max-w-full overflow-x-auto scrollbar-hide space-x-4">
 				{anywhereData?.map(({ img, title }) => (
 					<MediumCard key={img} img={img} title={title} />
 				))}

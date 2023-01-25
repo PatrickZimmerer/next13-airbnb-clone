@@ -8,11 +8,11 @@ interface Props {
 
 function MediumCard({ img, title }: Props) {
 	return (
-		<div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
-			<div className="cursor-pointer relative h-80 w-80">
+		<div className="cursor-pointer">
+			<div className="relative h-40 w-40 lg:h-80 lg:w-80 hover:scale-105 transform transition duration-300 ease-out">
 				<Image src={img} fill alt="location-image" className="rounded-xl" />
 			</div>
-			<h3 className="pt-4 text-2xl">{title}</h3>
+			<h3 className="pt-4 text-lg lg:text-2xl">{title}</h3>
 		</div>
 	);
 }
