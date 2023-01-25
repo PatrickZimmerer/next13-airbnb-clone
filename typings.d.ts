@@ -3,3 +3,8 @@ export type ExploreData = {
 	location: string;
 	distance: string;
 };
+
+export type AnywhereData = {
+	img: string;
+	title: string;
+};
