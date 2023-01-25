@@ -1,0 +1,4 @@
+.footer-links-container p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
