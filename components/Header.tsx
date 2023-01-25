@@ -10,11 +10,11 @@ import {
 
 function Header() {
 	return (
-		<header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md py-2 px-4 md:px-8">
+		<header className="sticky top-0 z-50 grid grid-cols-3 items-center bg-white shadow-md py-2 px-4 md:px-8">
 			<div className="cursor-pointer">
 				<Image src={logo} alt="logo" width="120" height="50" />
 			</div>
-			<div className="flex items-center rounded-full px-2 md:border-2 md:shadow-sm">
+			<div className="flex items-center rounded-full px-2 md:border-2 md:shadow-sm max-h-20">
 				<input
 					className="outline-none flex-grow pl-2 bg-transparent text-gray-600 placeholder-gray-400"
 					type="text"
